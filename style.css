@@ -1,0 +1,37 @@
+:root {
+    --text-accent-color: #03A9F4;
+    --main-text-color: #626262;
+    --name-text-color: #B4AD9E;
+}
+.header-link:hover{
+    color: var(--main-text-color);
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.gallery-name{
+    color: var(--name-text-color);
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.gallery-title{
+    color: var(--main-text-color);
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.gallery-text{
+    color: var(--main-text-color);
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
